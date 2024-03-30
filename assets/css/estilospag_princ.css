@@ -1,80 +1,73 @@
-/*este es el codigo de estilo para el menu*/
+/* Estilos para el menú */
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none; 
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #ddd;
-  }
-  
-  li a.active {
-    color: white;
-    background-color: #04AA6D;
-  }
-  /*este es el codigo de estilo para el menu*/
-  
-    /*el tamaño es para el gato*/
-  .tamano1_imagengato{
-   width: 235px;
-   height: 160px;
-   border-style: solid;
-   border-width: medium;
-   /*el tamaño es para el gato*/
-  }
-  .tamano1_imagenperro{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+/* Fin de estilos para el menú */
+
+/* Estilos para las imágenes */
+.tamano1_imagengato {
   width: 235px;
   height: 160px;
-  border-style: solid ;
-  border-style: medium ;
-  }
-  
-  /*Esto es para colocar la imagen con borde*/
-  
-  .tamano1_perro_gato{
+  border: 2px solid black; /* Cambié la propiedad para simplificar */
+}
+
+.tamano1_imagenperro {
+  width: 235px;
+  height: 160px;
+  border: 2px solid black; /* Cambié la propiedad para simplificar */
+}
+
+.tamano1_perro_gato {
   width: 56%;
   height: 22%;
-  border-style:solid ;
-  border-style: medium;
-  }
-  /*Esto es para colocar la imagen con borde*/
-  
-  body{
-    background-color: rgba(255, 255, 255, 0.986);
-  }
-  
-  /*Esto es para la imagen de perros y gatos*/
-  
-  .tamano1_perroygato{
+  border: 2px solid black; /* Cambié la propiedad para simplificar */
+}
+
+.tamano1_perroygato {
   width: 27%;
   height: 50%;
-  border-style: solid;
-  border-style: medium;
-  }
-  /*Esto es para las tablas*/
-  
-  table, th, td {
-    border:1px solid;
-    background-color: rgb(red, green, blue);
-  }
-  
-  /*Esto es h1*/
-  h1{
-    color: peru;
-  }
+  border: 2px solid black; /* Cambié la propiedad para simplificar */
+}
+/* Fin de estilos para las imágenes */
+
+/* Estilos para las tablas */
+table, th, td {
+  border: 1px solid black;
+  background-color: rgb(255, 0, 0); /* Cambié el color para evitar error */
+}
+
+/* Estilos para el título h1 */
+h1 {
+  color: rgb(255, 1, 1);
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  background-color: rgba(27, 154, 233, 0.986);
+}

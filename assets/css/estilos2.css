@@ -112,3 +112,30 @@ img {
     margin-top: 1%;
     margin-left: 0%;
 }
+
+body{
+    background-color: rgba(27, 154, 233, 0.986);
+  }
+
+  table {
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+.animal {
+    text-align: center; /* Centra el contenido dentro de las celdas de la tabla */
+}
+
+/* Estilos para las imágenes */
+.tamano_imagenes {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.tamano_imagenes_1 {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}

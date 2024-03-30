@@ -103,3 +103,29 @@ img {
             border-style: solid;
             border-width: medium;
         }*/
+
+body{
+    background-color: rgba(27, 154, 233, 0.986);
+}
+
+.animal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola línea */
+}
+
+.animal {
+    text-align: center; /* Centra el contenido dentro de cada elemento de animal */
+    margin: 20px; /* Espacio entre elementos de animal */
+}
+
+/* Estilos para la imagen */
+.tamannio_imagen_1 {
+    width: 235px;
+    height: 160px;
+    border-style: solid;
+    border-width: medium;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
