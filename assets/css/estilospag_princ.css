@@ -67,7 +67,22 @@ h1 {
   color: rgb(255, 1, 1);
 }
 
-/* Estilos para el cuerpo de la página */
-body {
-  background-color: rgba(27, 154, 233, 0.986);
+
+
+/* slider */
+.carousel-item img {
+  max-width: 300px; /* ajusta el ancho máximo de las imágenes */
+  height: auto;
+  margin: 0 auto; /* centrar las imágenes */
 }
+
+#carouselExampleIndicators {
+  max-width: 300px; /* ajusta el ancho máximo del carrusel */
+  margin: 0 auto; /* centrar el carrusel */
+}
+
+.celeste {
+  background-color: rgba(27, 154, 233, 0.986); /* define el color de fondo celeste */
+}
+
+

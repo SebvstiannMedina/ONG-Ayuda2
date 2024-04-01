@@ -16,6 +16,64 @@
     <li><a href="perros_adop.html">Perros</a></li>
     <li><a href="Gatos.html">Gatos</a></li>
 </ul>
+<!--SLIDER-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrusel de Imágenes</title>
+  <!-- Agrega los estilos de Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Agrega el archivo de estilos personalizados -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body class="celeste">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="http://127.0.0.1:5501/Gatos.html">
+        <img src="./assets/img/minino.jpg" class="d-block w-100" alt="Gatos">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Gatos</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <a href="http://127.0.0.1:5501/perros_adop.html">
+        <img src="./assets/img/jefazo.jfif" class="d-block w-100" alt="Perros">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Perros</h5>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
+
+<!-- Agrega los scripts de Bootstrap y jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+
 <h1>
     <center>ONG-AYUDA A UN PELUDO</center>
 </h1>
@@ -30,7 +88,7 @@
     <img src="./assets/img/Perroygato.png" alt="Sin iamgen" class="tamano1_perroygato">
 </center>
 
-<body>
+
 
 
     <h2>
@@ -50,24 +108,9 @@
 
     </ul>
 
-    <h2>
-        <center>Nuestras secciones de ayuda:</center>
-    </h2>
+    
 
-    <table style="width:100%">
-        <tr>
-            <td>
-                <img src="./assets/img/minino.jpg" alt="Sin imagen" class="tamano1_imagengato">
-            </td>
-            <td><a href="Gatos.html">Gatos</a></td>
-        </tr>
-        <tr>
-            <td>
-                <img src="./assets/img/jefazo.jfif" alt="Sin imagen" class="tamano1_imagenperro">
-            </td>
-            <td><a href="perros_adop.html">Perros</a></td>
-        </tr>
-    </table>
+    
 
 
 </body>
